@@ -2,5 +2,8 @@ name=Locksmith
 author=cxsquared
 description=Art made for the Goblin Bunker Jam 
 bundleId=com.cxsquared.locksmith
-version=1.69
-buildNumber=69
+version=1.70
+buildNumber=70
+imagePath=images/
+launchSoundPath=sounds/pinunlock.wav
+
