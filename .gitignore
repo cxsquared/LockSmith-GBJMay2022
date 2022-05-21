@@ -1,0 +1,19 @@
+# Playdate builds
+**/*.pdx
+builds/*
+
+# exclude workspace cache
+**/.obsidian/workspace/*
+**/.obsidian/workspace
+
+# This file is used to keep track of last auto backup/pull
+**/.obsidian-git-data
+
+# Exclude Untitled Notes
+Untitled*
+# Exclude "bad" names
+null*
+
+# Add below lines to exclude OS settings and caches
+.trash/
+.DS_Store
