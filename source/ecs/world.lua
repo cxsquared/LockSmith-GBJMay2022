@@ -60,7 +60,7 @@ end
 
 function World:_updateSystemFilters(system, entity)
     local filter = system.filter
-    local index = entity.id
+    local index = #system.entities + 1
     if filter and filter(system, entity) then
         system.entities[index] = entity
         local onAdd = system.onAdd

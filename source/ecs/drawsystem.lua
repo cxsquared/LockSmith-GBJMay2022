@@ -11,6 +11,8 @@ function drawSystem:process(e, dt)
         return
     end
 
+    playdate.graphics.setImageDrawMode(playdate.graphics.kDrawModeCopy)
+
     if e.transform.center then
         local width, height = e.image:getSize()
         e.transform.x = 400 / 2 - width / 2
